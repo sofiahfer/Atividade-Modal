@@ -1,0 +1,40 @@
+  *{font-family: Arial, Helvetica, sans-serif;}
+  /* O Modal (fundo) */
+  .modal {
+    display: none; /* Escondido por defeito */
+    position: fixed; /* Mantém-se no centro */
+    z-index: 1; /* Fica no topo */
+    padding-top: 100px; /* Localização da caixa */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Ativar o scroll se necessário */
+    background-color: rgb(0,0,0); /* Cor de recurso */
+    background-color: rgba(0,0,0,0.4); /* Preto com opacidade */
+  }
+  /* Conteúdo modal */
+  .conteudoModal {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  /* O botão Fechar */
+  .fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .fechar:hover,
+  .fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
